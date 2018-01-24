@@ -4,7 +4,7 @@ Starts a server that downloads a video from youtube, converts it to mp3 and send
 ## Install
 `npm i`
 
-or via docker
+or via docker [zonarius/youtube-dl-server](https://hub.docker.com/r/zonarius/youtube-dl-server)
 
 ## Usage
 `npm start`
