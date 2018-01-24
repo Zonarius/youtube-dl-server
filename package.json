@@ -1,19 +1,19 @@
 {
   "name": "youtube-dl-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Starts a server that downloads a video from youtube, converts it to mp3 and sends it to the client",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["ffmpeg", "youtube", "youtube-dl"],
+  "author": "Zonarius",
+  "license": "MIT",
   "devDependencies": {
-    "typescript": "^2.6.2"
+    "typescript": "^2.6.2",
+    "@types/express": "^4.11.0"
   },
   "dependencies": {
-    "@types/express": "^4.11.0",
     "express": "^4.16.2"
   }
 }
